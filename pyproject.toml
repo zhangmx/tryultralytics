@@ -1,0 +1,24 @@
+[project]
+name = "tryultralytics"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Flyman", email = "1308646+zhangmx@users.noreply.github.com"},
+]
+dependencies = [
+    "ultralytics>=8.2.58",
+    "torch>=2.3.1",
+    "torchvision>=0.18.1",
+    "torchaudio>=2.3.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
