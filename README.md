@@ -25,3 +25,10 @@ Learn form [ultralytics document](https://docs.ultralytics.com/).
 python train.py
 
 ```
+
+## 检测：
+
+```shell
+python detect.py
+
+```
