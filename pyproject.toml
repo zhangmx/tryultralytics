@@ -11,6 +11,8 @@ dependencies = [
     "torchvision>=0.18.1",
     "torchaudio>=2.3.1",
     "opencv-python>=4.10.0.84",
+    "onnx>=1.16.1",
+    "onnxscript>=0.1.0.dev20240722",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
