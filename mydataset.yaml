@@ -1,8 +1,9 @@
-path: D:\lab\python\tryultralytics\datasets\ccd # dataset root dir
+path: D:\lab\python\tryultralytics\datasets\ccd1 # dataset root dir
 train: images/train # train images (relative to 'path') 4 images
 val: images/val # val images (relative to 'path') 4 images
-nc: 2  # number of classes
+nc: 3  # number of classes
 
 names:
   0: OK
   1: NGReverse
+  2: component
