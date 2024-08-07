@@ -32,3 +32,8 @@ python train.py
 python detect.py
 
 ```
+
+## env 
+
+1. 推荐使用 conda. python 3.12  cuda 12.4
+2.  datasets 目录放在和项目平级的目录中

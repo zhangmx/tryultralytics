@@ -1,7 +1,11 @@
 import shutil
 import os
 
-cache_dir = 'D:\\lab\\python\\tryultralytics\\runs'
+# 获取当前脚本的目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 构建相对路径
+cache_dir = os.path.join(current_dir, "runs")
 
 # 检查目录是否存在
 if os.path.exists(cache_dir):

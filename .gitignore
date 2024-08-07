@@ -166,3 +166,4 @@ runs/
 datasets/
 pictures
 *.pt
+*.onnx

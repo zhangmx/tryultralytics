@@ -1,4 +1,4 @@
-path: D:\lab\python\tryultralytics\datasets\ccd1 # dataset root dir
+path: ccd1 # dataset root dir
 train: images/train # train images (relative to 'path') 4 images
 val: images/val # val images (relative to 'path') 4 images
 nc: 3  # number of classes
